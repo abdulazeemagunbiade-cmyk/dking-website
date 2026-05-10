@@ -1,0 +1,134 @@
+#title{
+color: rgb(74, 239, 239);
+text-align: left;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 500px;
+ text-shadow: 5px 8px 8px rgb(74, 239, 239) ;
+}
+
+.navbar{
+    padding: 5px;
+}
+
+.navbar ul{
+list-style: none ;
+display: flex;
+justify-content: center;
+gap: 20px;
+background-color: rgb(22, 90, 110);
+border-radius: 5px;
+}
+
+.navbar li a{
+text-decoration: none;
+color: #ff9800;
+padding: 10px;
+list-style: none;
+}
+
+.logo{
+    margin-left: 40%;
+    margin-top: 5px;
+}
+
+.menu{
+    border-radius: 10px;
+}
+
+body{
+color:rgb(74, 239, 239);
+display: block;
+}
+
+p {
+    color: rgb(0, 0, 0)
+}
+
+a{
+color: rgb(0, 0, 0);
+font-family: monospace;
+font-size: larger;
+display: inline-table;
+font-display: block;
+font-weight: 100;
+justify-content: space-between;
+
+}
+
+a:hover{
+    color: cyan;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.container{
+    display: inline;
+    flex-direction: column; 
+    padding: 20px;   
+}
+
+.container h1{
+    color: rgb(5, 63, 65);
+    font-style: italic;
+    font-weight: bolder;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.card{
+    background:white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.884);
+    width: 500px;
+    margin: 20px;
+    padding: 30px;   
+    margin-left: 30%;
+}
+
+.card img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+ .card:hover{
+      transform:translateX(-10px);
+    }
+
+.group1 button{
+    background-color: brown;
+    cursor: pointer;
+    padding: 10px, 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 150px;
+    height: 40px;
+}
+
+.group1 button:hover{
+    color: aqua;
+    background-color: rgb(22, 90, 110);
+}
+
+.contact{
+      background:rgb(22, 90, 110);
+      color:white;
+      text-align:center;
+    }
+
+    .contact p{
+      margin:15px 0;
+      font-size:18px;
+    }
+
+    footer{
+      background:#ff9800;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+

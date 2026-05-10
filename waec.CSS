@@ -1,0 +1,168 @@
+#title{
+color: rgb(74, 239, 239);
+text-align: left;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 500px;
+ text-shadow: 5px 8px 8px rgb(74, 239, 239) ;
+}
+
+.navbar{
+    padding: 5px;
+}
+
+.navbar ul{
+list-style: none ;
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+
+}
+
+.navbar li a{
+text-decoration: none;
+color: rgb(74, 239, 239);
+background-color: rgb(22, 90, 110);
+padding: 10px 20px;
+border-radius: 5px;
+list-style: none;
+}
+
+.top{
+    background-color: rgb(22, 90, 110);
+    text-align: end;
+    border-radius: 5px;
+    text-shadow: 5px 8px 8px rgb(74, 239, 239) ;
+    width: 25%;
+    height: 20px;
+    background-color: rgb(22, 90, 110);
+    margin-top: 0%;
+    margin-bottom: 5px;
+    margin-left: 40%;
+}
+
+.logo{
+    float: inline-start;
+    
+
+}
+
+.menu{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    background-image: url(./images/Desk.jpeg);
+}
+
+body{
+color:rgb(74, 239, 239);
+display: block;
+
+}
+
+
+
+p {
+    color: rgb(0, 0, 0)
+}
+
+a{
+color: rgb(0, 0, 0);
+font-family: monospace;
+font-size: larger;
+display: inline-table;
+font-display: block;
+font-weight: 100;
+justify-content: space-between;
+
+}
+
+a:hover{
+    color: cyan;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.container{
+    display: block;
+    flex-direction: column-reverse;
+    
+}
+
+.contact{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border-radius: 30px;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(8, 30, 34);
+    margin-left: 25%;
+    margin-top: 30px;
+    padding-top: 20px
+    
+
+
+}
+
+.contact image{
+    object-fit: cover;
+    padding-bottom: 5px;
+    border-radius: 100%;
+    border-style: groove;
+    width: 100px;
+    border-radius: 5px;
+   
+}
+
+.contact button:hover{
+    color: aqua;
+    background-color: teal;
+
+}
+
+.title{
+    color: brown;
+}
+
+.mine{
+    color: rgb(59, 155, 155);
+}
+
+.scroll{
+    color: black;
+    background-color: rgb(22, 90, 110);
+    margin-top: 5px;
+}
+
+.jamb{
+    background-color: rgb(218, 218, 218);
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.jamb img{
+    padding-left: 150px;
+}
+
+.jamb h1{
+    color: rgb(22, 90, 110);
+
+}
+
+.jamb p{
+    color: black;
+}
+
+.jamb h3{
+    color: rgb(22, 90, 110);
+}
+
+.jamb ul li{
+    color: black;
+
+}

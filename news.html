@@ -1,0 +1,97 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D-KING.com</title>
+    <link rel="stylesheet" href="./news.CSS">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<img class="icon" src="./images/Icon menu.jpg" 
+width="30px"
+height="30px"
+alt="">
+
+  </head>
+  <body>
+    <div class="logo">
+    <img src="./images/logo.PNG"
+width="250"
+height="250"
+alt="">
+</div>
+
+  <div class="menu">
+  <nav class="navbar">
+  <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="#services">SERVICES</a></li>
+      <li><a href="contact.html">COMMUNITY</a></li>
+  </ul>
+</nav>
+</div>
+    
+    <div class="search-box">
+    <input type="text" id="search" placeholder="Search news...">
+  </div>
+    <section class="side">
+    <div class="card">
+      <img src="./images/JAMB.jpg"
+      height="100px"
+      width="100px"
+      alt="">
+      <a href="reprint.html">JAMB Activates Portal for 2026 UTME Slip Reprinting</a>
+     </div>
+
+    <div class="card">
+      <img src="./images/WAEC LOGO.jpeg" alt="" 
+        height="100"></a>
+      <a href="reprint.html">WAEC Releases 2026 CB-WASSCE Results (First Series) </a>
+     </div>
+     
+
+    
+    
+     <div class="card">
+      <img src="./images/JAMB.jpg" alt="" 
+        height="100"></a>
+      <a href="jamb.html">JAMB TO HOLD UTME EXAM 26TH JANUARY 2026</a>
+     </div>
+     
+
+
+     <div class="card">
+      <img src="./images/LASU.jpg"
+      height="100px"
+      width="100px"
+      alt="">
+      
+      <a href="https://services.lidc.lasu.edu.ng/admissionscreening/login.php">LASU OPENS ADMISSION SCREENING PORTAL FOR 2025</a>
+     </div>
+    </section>
+    
+
+     
+<script>
+
+  
+// SIMPLE SEARCH FILTER
+const search = document.getElementById("search");
+const posts = document.querySelectorAll(".card");
+
+search.addEventListener("keyup", function(){
+  let value = this.value.toLowerCase();
+
+  posts.forEach(card => {
+    let text = card.innerText.toLowerCase();
+    card.style.display = text.includes(value) ? "inline-block" : "none";
+  });
+});
+</script>
+
+    
+  </body>
+</html>
