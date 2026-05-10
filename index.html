@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D-KING.com</title>
+    <link rel="stylesheet" href="./style.CSS">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<img class="icon" src="./images/Icon menu.jpg" 
+width="30px"
+height="30px"
+alt="">
+
+  </head>
+  <body>
+    <div class="logo">
+    <img src="./images/logo.PNG"
+width="250"
+height="250"
+alt="">
+</div>
+
+<div class="menu">
+  <nav class="navbar">
+  <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="contact.html">Community</a></li>
+  </ul>
+  </nav>
+</div>
+    
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Your Admission Journey Starts Here</h2>
+      <p>
+       Guiding students till Admission is Secured.
+      </p>
+
+      <a href="https://wa.link/z1xl87" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>Admission Guidance</h3>
+        <p>
+          We help students understand admission requirements
+          and improve their chances of gaining admission.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Course Consultation</h3>
+        <p>
+          Get guidance on choosing the right course
+          based on your O'Level and JAMB results.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Registration Support</h3>
+        <p>
+          We assist with Post-UTME, JUPEB,
+          IIVE registration, and more.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Academic Counseling</h3>
+        <p>
+          Receive professional advice to help
+          you succeed academically and professionally.
+        </p>
+      </div>
+
+    </div>
+  </section>
+   
+
+     <section id="about">
+      <h2 class="section-title">About Us</h2>
+      <div class="intro-left">
+        <img src="./images/Desk.jpeg" alt="">
+        
+      </div>
+
+       <div>
+        <h3>Trusted Educational Consultants</h3>
+
+        <p>
+          BrightPath Consultancy is dedicated to helping
+          students secure admission into their desired institutions.
+          We provide accurate guidance, affordable services,
+          and step-by-step support throughout the admission process.
+        </p>
+
+        <br>
+
+        <p>
+          Our mission is to reduce costly mistakes and
+          help students make informed educational decisions.
+        </p>
+      </div>
+      
+     </section>
+<script>
+
+  
+// SIMPLE SEARCH FILTER
+const search = document.getElementById("search");
+const posts = document.querySelectorAll(".container");
+
+search.addEventListener("keyup", function(){
+  let value = this.value.toLowerCase();
+
+  posts.forEach(container => {
+    let text = container.innerText.toLowerCase();
+    container.style.display = text.includes(value) ? "inline-block" : "none";
+  });
+});
+</script>
+
+    
+  </body>
+</html>
